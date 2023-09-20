@@ -1,1 +1,55 @@
-# CIS566-FA23-JellyfishDraft
+# Procedural Jellyfish
+
+## Project Overview
+[TODO: jellyfish parts breakdown]
+[TODO: add docs and vex links]
+
+## Bell and Arms
+Follow along to the videos from lab to create the bell and arms of the jellyfish. 
+
+[TODO: LINK]
+
+## Veins
+In order to create the veins for the jellyfish, you'll make use of the "Find Shortest Path" node. The Dungeon Corridor example in the Houdini Playground is a helpful reference for using this node. Here is some rough guidance for how to approach these:
+
+Remesh the jellyfish into triangles (otherwise you'll end up with very square looking veins)
+
+<img width="300" alt="Remesh" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/c358185e-a93d-4198-9d66-5199f7220d22">
+
+Use the shortest path node to generate veins
+
+<img width="300" alt="ShortestPath" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/4b6f4829-4012-4fee-92a6-e16739c590d8">
+
+Smooth out the veins for a more organic look (Hint: you might find yourself needing the "resample" and "fuse" nodes in addition to the "smooth" node)
+
+<img width="300" alt="ResampleFuseSmooth" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/1160bb65-b71f-4a0e-96a5-e813d7b31626">
+
+Use a "sweep" node to give the veins width
+
+<img width="300" alt="Sweep" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/1180b046-2323-44ad-8f7f-1e37b4496c52">
+
+Lastly, stick the veins to the bell's animation using the "Point Deform" node that we used on the arms. The final result should look something like this:
+
+<img width="300" alt="Organs" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/e40e18bc-8cab-4a26-be59-79597fbb887f">
+
+## Organs
+Next, create organs for your jellyfish. You can approach this any way you'd like! The final result should look something like this:
+<img width="300" alt="Organs" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/b8fba148-4fec-4af7-8364-0b2a036aae53">
+
+
+## Tentacles
+When you're working on Houdini projects in the future, you usually won't be able to find tutorials for exactly what you're trying to do. Instead, you'll need to be able to take semi-related tutorials and apply the relevant techniques to your projects. This exercise is designed to give you some experience with that.
+
+Your goal is to create tentacles that look like this for your jellyfish:
+
+[This video](https://www.youtube.com/watch?v=LN4XXaHQkmU) demonstrates how to simulate hairs to create renders like this:
+
+<img width="300" alt="HairRender3" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/7fd95413-311f-4761-91ca-eaedda337be1">
+<img width="300" alt="HairRender2" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/aabb9188-defd-49eb-b0f5-537f3a34f456">
+<img width="300" alt="HairRender1" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/40ac3b53-1e76-4aeb-8319-0f20b54c1e9e">
+
+Your task is to watch the video and extract the applicable information to make the tentacles! (also, just a heads up, the second half of the tutorial is all irrelevant rendering stuff in C4D, so you only need to watch the first 12 minutes or so).
+
+## (Optional) Extra Credit
+
+## Submission
