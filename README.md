@@ -1,11 +1,14 @@
 # Procedural Jellyfish
 
 ## Project Overview
-[TODO: jellyfish parts breakdown]
+In this homework, you'll create a procedural jellyfish using Houdini. This will give you a chance to dig into procedural modeling, as well as some simulation. Here is a breakdown of the different jellyfish parts you'll be putting together:
+
+<img width="300" alt="Jellyfish Parts" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/fcc81124-8a51-4637-a618-b7bae13724a8">
+
 [TODO: add docs and vex links]
 
 ## Bell and Arms
-Follow along to the videos from lab to create the bell and arms of the jellyfish. 
+Follow along to the videos to create the bell and arms of the jellyfish. Although I provide the values I used to create my jellyfish, you're heavily encouraged to play around and customize the setup to your liking! 
 
 [TODO: LINK]
 
@@ -34,13 +37,15 @@ Lastly, stick the veins to the bell's animation using the "Point Deform" node th
 
 ## Organs
 Next, create organs for your jellyfish. You can approach this any way you'd like! The final result should look something like this:
-<img width="300" alt="Organs" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/b8fba148-4fec-4af7-8364-0b2a036aae53">
+<img width="300" alt="Veins" src="https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/b8fba148-4fec-4af7-8364-0b2a036aae53">
 
 
 ## Tentacles
 When you're working on Houdini projects in the future, you usually won't be able to find tutorials for exactly what you're trying to do. Instead, you'll need to be able to take semi-related tutorials and apply the relevant techniques to your projects. This exercise is designed to give you some experience with that.
 
 Your goal is to create tentacles that look like this for your jellyfish:
+
+![TentaclesGif](https://github.com/e-chou/CIS566-FA23-JellyfishDraft/assets/25019996/f2832a19-64a7-442f-9a86-a11581b9ff0c)
 
 [This video](https://www.youtube.com/watch?v=LN4XXaHQkmU) demonstrates how to simulate hairs to create renders like this:
 
