@@ -16,7 +16,9 @@ Here are some SideFX docs that you might find helpful:
 ## Bell and Arms
 Follow along to the videos to create the bell and arms of the jellyfish. Although I provide the values I used to create my jellyfish, you're heavily encouraged to play around and customize the setup to your liking! 
 
-[TODO: LINK]
+[Jellyfish Bell Setup Video](https://www.youtube.com/watch?v=J3X8BB0yNRE)
+
+[Jellyfish Arms Setup Video](https://www.youtube.com/watch?v=A_oNXqx8XH4)
 
 ## Veins
 In order to create the veins for the jellyfish, you'll make use of the "Find Shortest Path" node. The Dungeon Corridor example in the Houdini Playground is a helpful reference for using this node. Here is some rough guidance for how to approach making the veins:
