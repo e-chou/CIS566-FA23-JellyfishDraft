@@ -72,6 +72,6 @@ Your task is to watch the video and extract the applicable information to make t
 ## Submission
 - Update your README with
     - A description of your project
-    - A video of your animated jellyfish
+    - A video of your animated jellyfish ([video](https://www.youtube.com/watch?v=gXtDd1lPDmc) of how to save a video of your viewport out of Houdini)
 - Create a pull request to this repository
 - Submit your Houdini file to Canvas along with a link to your pull request
